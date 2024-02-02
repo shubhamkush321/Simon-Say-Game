@@ -1,0 +1,143 @@
+body{
+    text-align: center;
+    background-color: rgb(32, 17, 17);
+    color: white;
+}
+
+.btn{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 20%;
+    border: 10px solid rgba(23, 177, 204, 0.564);
+    margin: 1rem;
+    padding: 1em;
+    font-weight: 800;
+    color: rgb(51, 45, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgb(20, 17, 17);
+}
+.btn:hover{
+    color: aqua;
+    letter-spacing: 3px;
+    transition: 0.5s;
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+.btn>p{
+    font-size: 2rem;
+}
+.red, .green{
+    margin-bottom: 4rem !important;
+
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    
+    /* position: relative;
+    top: 50px; */
+}
+.red{
+    background-color: rgb(214, 112, 112);
+}
+.yellow{
+    background-color: rgb(219, 219, 109);
+}
+.green{
+    background-color: rgb(98, 201, 98);
+}
+.purple{
+    background-color: rgb(190, 82, 190);
+}
+.flash{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 10px red !important;
+}
+.userFlash{
+    background-color: blue;
+    box-shadow: none !important;
+
+}
+@media (max-width: 524px) {
+    .btn{
+        height: 5rem;
+        width: 5rem;
+        border-radius: 20%;
+        border: 10px solid rgba(33, 33, 33, 0.564);
+        margin: 1.4rem;
+        padding: .5em;
+        /* box-shadow: 2px 2px 10px rgb(255, 255, 255); */
+
+    }
+    .btn>p{
+        font-size: 1.5rem;
+    }
+    .red, .green{
+        margin-bottom: 2.48em !important;    
+    }
+}
+.start{
+    height: 2rem;
+    width: 6rem;
+    background-color: rgb(95, 179, 185);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 251, 251);
+    border-radius: 10px;
+    font-size: 1.1rem;
+    box-shadow: 0px 0px 20px rgb(170, 170, 170);
+}
+.start:hover{
+    color: aqua;
+    letter-spacing: 3px;
+    transition: 0.5s;
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+.level{
+    height: 35px;
+    font-size: 1.3rem;
+}
+
+.highscore{
+    font-size: 1.8rem;
+    color: rgb(150, 150, 177);
+    height: 2rem;
+    line-height: 20px;
+}
+.Gname{
+    text-decoration: underline;
+    line-height: 20px;
+}
+audio{
+    display: none;
+}
+.rule{
+    padding: .25rem .75rem;
+    margin: 10px;
+    background-color: rgb(19, 14, 14);
+    color: white;
+    font-size: 1.1rem;
+    border: 1px solid rgb(223, 10, 10);
+    border-radius: 10px;
+}
+.rule:hover{
+    color: red;
+    letter-spacing: 3px;
+    transition: 0.5s;
+    box-shadow: 0 0 5px #f41303,
+    0 0 25px #f40303,
+    0 0 50px #f40b03,
+    0 0 100px #f40b03;
+}
+.rule-body{
+    padding: 1.5rem;
+}
+.rule-body h3{
+    text-decoration: underline;
+}
